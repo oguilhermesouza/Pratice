@@ -145,7 +145,6 @@ footer {
     transition: 0.5s;
 }
 footer ul {
-    list-style: none;
     margin-bottom: 35px;
 }
 footer ul li {
@@ -162,6 +161,10 @@ footer ul li::before {
     content: '\2022';
     margin: 0 2px;
     color: aqua;
+}
+footer ul li a {
+    color: #9a9a9a;
+    text-decoration: none;
 }
 footer h1 {
     font-size: 12px;
