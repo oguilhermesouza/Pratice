@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1015px;
+}
+.header--left {
+    display: flex;
+    align-items: flex-end;
+}
+.logo img{
+    width: 50px;
+    padding-right: 10px;
+}
+.header-title,
+.header--right {
+    padding-bottom: 10px;
+}
+.sub-title {
+    font-size: 10px;
+}
+.title {
+    font-weight: bold;
+}
+.activities label,
+.boletim-infos-content, 
+.page {
+    font-size: 9px;
+}
+.boletim-infos {
+    display: flex;
+}
+.activities {
+    width: 380px;
+    border: 1px solid #000;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.activities-title {
+    font-size: 10px;
+    margin-right: 5px;
+}
+.activities-left {
+    margin-right: 15px;
+}
+.activities label {
+    display: block;
+}
+.boletim-infos {
+    display: flex;
+    justify-content: center;
+}
+.boletim-infos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.boletim-infos-one,
+.boletim-infos-two,
+.boletim-infos-three {
+    display: flex;
+}
+.boletin-infos-three {
+    display: flex;
+    justify-content: space-between;
+}
+.boletin-infos-three label {
+    margin-right: 10px;
+}
+.city input,
+.area input,
+.censitario input,
+.quart input,
+.date input {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    text-align: center;
+}
+.date input[type="date"]::-webkit-inner-spin-button,
+.date input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.date input {
+    width: 180px;
+}
+.quart input {
+    width: 100px;
+}
+.city input {
+    width: 347px;
+}

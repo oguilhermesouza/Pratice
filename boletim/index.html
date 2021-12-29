@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header--left">
+                <div class="logo"><img src="assets/images/brasao.png" alt=""></div>
+                <div class="header-title">
+                    <div class="sub-title">SUPERINTENDÊNCIA DE CONTROLE DE ENDEMIAS</div>
+                    <div class="title">BOLETIM DE ATIVIDADES DE VIGILÂNCIA E CONTROLE</div>
+                </div>
+            </div>
+            <div class="header--right">
+                <div class="page">FOLHA:_______/_______</div>
+            </div>
+        </div>
+    </header>
+    <div class="boletim-infos">
+        <div class="activities">
+            <div class="activities-title">ATIVIDADES</div>
+            <div class="activities-left">
+                <label for="1">
+                    <input type="checkbox" id="1" name="horns">
+                    1 - PONTO ESTRATEGICO
+                </label>
+                <label for="2">
+                    <input type="checkbox" id="2" name="horns">
+                    2 - IMÓVEL ESPECIAL
+                </label>
+                <label for="3">
+                    <input type="checkbox" id="3" name="horns">
+                    3 - LARVITRAMPA
+                </label>
+                <label for="4">
+                    <input type="checkbox" id="4" name="horns">
+                    4 - OVITRAMPA
+                </label>
+                <label for="12">
+                    <input type="checkbox" id="12" name="horns">
+                    12 - OBRAS
+                </label>
+            </div>
+            <div class="activities-right">
+                <label for="5">
+                    <input type="checkbox" id="5" name="horns" checked>
+                    5 - VISITA A IMÓVEIS
+                </label>
+                <label for="6">
+                    <input type="checkbox" id="6" name="horns">
+                    6 - CONTROLE DE CRIADOUROS
+                </label>
+                <label for="7">
+                    <input type="checkbox" id="7" name="horns">
+                    7 - NEBULIZAÇÃO EQ. PORTÁTIL
+                </label>
+                <label for="8">
+                    <input type="checkbox" id="8" name="horns">
+                    8 - AVAL.DENSIDADE LARVÁRIA
+                </label>
+            </div>
+        </div>
+        <div class="boletim-infos-content">
+            <div class="boletim-infos-one">
+                <div class="date">DATA: <input type="date"> </div>
+                <div class="city">MUNICIPIO: <input type="text"></div>
+            </div>
+            <div class="boletim-infos-two">
+                <div class="area">ÁREA (*): <input type="text"></div>
+                <div class="censitario">SETOR CENSITÁRIO: <input type="text"></div>
+                <div class="quart">QUART: <input type="text"></div>
+            </div>
+            <div class="boletin-infos-three">
+                <div class="exec">
+                    EXECUÇÃO:
+                    <label for="sucen">
+                        <input type="checkbox" name="sucen" id="sucen">
+                        SUCEN
+                    </label>
+                    <label for="municipio">
+                        <input type="checkbox" name="municipio" id="municipio">
+                        MUNICIPIO
+                    </label>
+                    <label for="acs">
+                        <input type="checkbox" name="acs" id="acs" checked>
+                        ACS
+                    </label>
+                </div>
+                <div class="type">
+                    TIPO TRABALHO:
+                    <label for="rotina">
+                        <input type="checkbox" name="rotina" id="rotina" checked>
+                        ROTINA
+                    </label>
+                    <label for="pendencia">
+                        <input type="checkbox" name="pendencia" id="pendencia">
+                        PENDÊNCIA
+                    </label>
+                    <label for="demanda">
+                        <input type="checkbox" name="demanda" id="demanda">
+                        DEMANDA
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
